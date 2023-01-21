@@ -21,7 +21,7 @@
   width: 100px;
   height: 50px;
   font-size: 40px;
-  border-radius: 50PX;
+  border-radius: 50px;
   margin: 5px 10px 5px 10px;
 }
 
@@ -29,6 +29,10 @@
   width: 100px;
   height: 50px;
   font-size: 40px;
-  border-radius: 50PX;
+  border-radius: 50px;
   margin: 5px 10px 5px 10px;
+}
+
+.count-button {
+  display: inline;
 }
