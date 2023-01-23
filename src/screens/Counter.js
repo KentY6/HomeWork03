@@ -1,7 +1,6 @@
 import { useState } from "react";
 import "../app/App";
-import { PlusButton } from "../components/PlusButton";
-import { MinusButton } from "../components/MinusButton";
+import { Button } from "../components/Button";
 
 const Counter = () => {
   const [count, setCount] = useState(0);
@@ -21,8 +20,8 @@ const Counter = () => {
       <h2 className="count-num">{count}</h2>
       {/* 子コンポーネントにprops→'increment/decrement'を追加し、中に同名の関数を入れる */}
       <div className="count-button">
-        <PlusButton increment={increment} />
-        <MinusButton decrement={decrement} />
+        <Button process={increment} icon={"+"} />
+        <Button process={decrement} icon={"-"} />
       </div>
     </dev>
   );
